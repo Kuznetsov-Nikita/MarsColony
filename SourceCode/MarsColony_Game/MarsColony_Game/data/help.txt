@@ -1,0 +1,27 @@
+	Справка по игре MarsColony:
+	
+ Процесс игры в MarsColony заключается в совершении ходов. Ходы 
+совершаются с помощью команд. Команды вводятся строго по одной,
+через enter
+
+ end - завершить ход
+ new <explorer/military/engeneer> - создать нового юнита указан-
+ного класса
+* Юнит расходует 1 единицу пищи при создании, при отсутствии пищи
+создать нового юнита нельзя.
+ build <science_center/military_center/farm/solar_plant/
+        /assembly_plant/cargo_platform> - построить указанное
+здание
+ upgrade <main_building/science_center/military_center/farm/
+          /solar_plant> - улучшить указанное здание
+* При попытке улучшить максимально улучшенное здание команда про-
+игнорируется
+ mission <mission number> - начать миссию с указанным номером
+ quit - завершить игру и выйти в меню
+ 
+В дереве технологий:
+ research <technology number> - изучить технологию с заданным
+номером
+ quit - выйти из дерева технологий
+
+To be continued...
